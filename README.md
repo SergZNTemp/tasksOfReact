@@ -11,8 +11,8 @@ task's solves of React from daruse.ru
    - [x] [button](createComponents/Button.js) - принимает стиль и текст кнопки, type (submit, button или ссылка), если ссылка, то тег а и ещё атрибут href (https://bootstrap-4.ru/docs/4.3.1/components/buttons/)
    - [x] [card](createComponents/Card.js) - принимает ссылку на картинку и текст вместе с html-кодом (https://bootstrap-4.ru/docs/4.3.1/components/card/)
    - [x] [bradcrumbNav](createComponents/BreadcrumbNav.js) - принимает массив такого же типа как и nav компонент (https://bootstrap-4.ru/docs/4.3.1/components/breadcrumb/)
-3. - [ ] []( ) Написать компонент для создания заголовков Title, где мы передаем текст заголовка, размер и цвет (черный по дефолту, красный или синий)
-   - [ ] []( ) Написать компонент для простых Input, который принимает type (text, password...), placeholder, value. (Оформи как и Bootstrap инпуты)
+3. - [x] [title](createComponents/Title.js) Написать компонент для создания заголовков Title, где мы передаем текст заголовка, размер и цвет (черный по дефолту, красный или синий)
+   - [x] [input](createComponents/Input.js) Написать компонент для простых Input, который принимает type (text, password...), placeholder, value. (Оформи как и Bootstrap инпуты)
 4. - [ ] []( ) Написать компонент по рейтингу, он принимает два пропса, 1 - максимальное количество звезд, 2 - сколько выбрано звезд. На скрине максмум 4 звезды, а выбрано 3 (http://prntscr.com/q7m7vd)
 5. - [ ] []( ) Сделать компонент для тегов, теги мы отправляем в таком формате (http://prntscr.com/q7m028):
 
