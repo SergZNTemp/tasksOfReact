@@ -13,8 +13,8 @@ task's solves of React from daruse.ru
    - [x] [bradcrumbNav](createComponents/BreadcrumbNav.js) - принимает массив такого же типа как и nav компонент (https://bootstrap-4.ru/docs/4.3.1/components/breadcrumb/)
 3. - [x] [title](createComponents/Title.js) Написать компонент для создания заголовков Title, где мы передаем текст заголовка, размер и цвет (черный по дефолту, красный или синий)
    - [x] [input](createComponents/Input.js) Написать компонент для простых Input, который принимает type (text, password...), placeholder, value. (Оформи как и Bootstrap инпуты)
-4. - [ ] []( ) Написать компонент по рейтингу, он принимает два пропса, 1 - максимальное количество звезд, 2 - сколько выбрано звезд. На скрине максмум 4 звезды, а выбрано 3 (http://prntscr.com/q7m7vd)
-5. - [ ] []( ) Сделать компонент для тегов, теги мы отправляем в таком формате (http://prntscr.com/q7m028):
+4. - [-] [пропущено!](https://github.com/SergZNTemp/tasksOfReact/edit/master/README.md "не сделано. неточное задание и ссылка не работает") Написать компонент по рейтингу, он принимает два пропса, 1 - максимальное количество звезд, 2 - сколько выбрано звезд. На скрине максмум 4 звезды, а выбрано 3 (http://prntscr.com/q7m7vd)
+5. - [-] [пропущено!](https://github.com/SergZNTemp/tasksOfReact/edit/master/README.md "не сделано. неточное задание и ссылка не работает") Сделать компонент для тегов, теги мы отправляем в таком формате (http://prntscr.com/q7m028):
 
      tags = [\
     { title: 'Тег №1', href: 'http://link1.ru'},\
@@ -22,9 +22,9 @@ task's solves of React from daruse.ru
     { title: 'Тег №3', href: 'http://link3.ru'},\
     ]
   
-6. - [ ] []( ) Передаем массив объектов с ссылками (штук 5   передай в виде массива [{title: 'Новости', link: '/news'}, {...}]) (https://bootstrap-4.ru/docs/4.3.1/components/breadcrumb/.)
+6. - [-] [пропущено!](https://github.com/SergZNTemp/tasksOfReact/edit/master/README.md "не сделано. повторяется задание") Передаем массив объектов с ссылками (штук 5   передай в виде массива [{title: 'Новости', link: '/news'}, {...}]) (https://bootstrap-4.ru/docs/4.3.1/components/breadcrumb/.)
 
-7. - [ ] []( ) Принимает два пропса, 1 - countArticles(Число (якобы материалов)), 2 - limit (Сколько Выводить на страницу). Например если мы передали countArticles=49, limits=10, то у нас будут кнопки = Previous 1 2 3 4 5 Next (То есть якобы на каждую страницу по 10 материалов, поэтому страниц 5 всего, так как мы указали, что выводить по 10 на страницу)  (https://bootstrap-4.ru/docs/4.3.1/components/pagination/)
+7. - [x] [pagination](createComponents/Pagination.js) Принимает два пропса, 1 - countArticles(Число (якобы материалов)), 2 - limit (Сколько Выводить на страницу). Например если мы передали countArticles=49, limits=10, то у нас будут кнопки = Previous 1 2 3 4 5 Next (То есть якобы на каждую страницу по 10 материалов, поэтому страниц 5 всего, так как мы указали, что выводить по 10 на страницу)  (https://bootstrap-4.ru/docs/4.3.1/components/pagination/)
 
 ## Задание про состояниям
 1. - [ ] []( ) Создать любой компонент и выполнить в нем код по этой ссылке (3.12.2.1 Хук состояния), надо примерно понять как это работает.
