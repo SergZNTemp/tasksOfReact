@@ -1,5 +1,5 @@
 ﻿# Tasks of React
-task's solves of React from daruse.ru
+task's solves of React from [daruse.ru](https://daruse.ru/zadaniya-po-react-dlya-prokachki)
 
 ## Задание по пропсам и компонентам
 1. Создать компоненты:  
